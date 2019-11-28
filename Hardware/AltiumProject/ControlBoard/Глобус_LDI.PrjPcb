@@ -139,6 +139,58 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LVHRULSX
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Глобус_LDI\PCB1.TXT
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -191,7 +243,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Canon LBP3010/LBP3018/LBP3050
+TargetPrinter=HP LaserJet M101-M106 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -297,7 +349,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Canon LBP3010/LBP3018/LBP3050
+TargetPrinter=HP LaserJet M101-M106 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -369,7 +421,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Canon LBP3010/LBP3018/LBP3050
+TargetPrinter=HP LaserJet M101-M106 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Test Points For Assembly
 OutputName1=Test Point Report
@@ -395,13 +447,17 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Canon LBP3010/LBP3018/LBP3050
+TargetPrinter=HP LaserJet M101-M106 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
 OutputType2=Mask
 OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
@@ -470,12 +526,12 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908291~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908291~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Canon LBP3010/LBP3018/LBP3050
+TargetPrinter=HP LaserJet M101-M106 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -512,7 +568,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Canon LBP3010/LBP3018/LBP3050
+TargetPrinter=HP LaserJet M101-M106 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -692,7 +748,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Canon LBP3010/LBP3018/LBP3050
+TargetPrinter=HP LaserJet M101-M106 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -736,7 +792,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Canon LBP3010/LBP3018/LBP3050
+TargetPrinter=HP LaserJet M101-M106 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -797,7 +853,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Canon LBP3010/LBP3018/LBP3050
+TargetPrinter=HP LaserJet M101-M106 PCLmS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
