@@ -1,12 +1,11 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [Глобус_LDI.PrjPcb]
-   Generated File[PCB1.TXT]
-   Generated File[PCB1.LDP]
-   Generated File[PCB1.DRR]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [Глобус_LDI.PrjPcb]
+   Generated File[Pick Place for PCB1.txt]
+   Generated File[Pick Place for PCB1.csv]
 
 
-Files Generated   : 3
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 14:57:40 On 28.11.2019
+Finished Output Generation At 23:51:17 On 26.09.2020
